@@ -120,8 +120,8 @@ public class LoanCalculator extends Application {
         totalPayment=Math.round(totalPayment*100.0)/100.0;
         
         //Set textField with the result
-        tFMonthlyPayment.setText(Double.toString(monthlyPayment));
-        tFTotalPayment.setText(Double.toString(totalPayment));
+        tFMonthlyPayment.setText("$"+Double.toString(monthlyPayment));
+        tFTotalPayment.setText("$"+Double.toString(totalPayment));
 
     }
 
